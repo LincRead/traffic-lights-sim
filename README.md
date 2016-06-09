@@ -2,7 +2,12 @@
 
 This application simulates a set of traffic lights at an intersection. The traffic lights are designated (N, S) and (E, W) like a compass.
 
-#### Buttons
+#### How ro tun
+
+- Open link: http://lincread.com/traffic-lights-sim/
+- Or host site locally. I use EasyPHP (http://www.easyphp.org/). Run index.html in the root folder.
+
+#### How to use
 
 The simulator includes two buttons:
 
@@ -15,16 +20,15 @@ The simulator includes two buttons:
 - To warn incoming traffic about the change, yellow lights will be displayed 30 seconds before the lights change to red.
 - The simulation resets itself after running for 30 minutes.
 
-it switching to red.
-
 ##### 30x button settings applied:
 
-The simulation also includes a 30x button to speeed things up:
 - Traffic lights will change every 10 seconds.
 - Yellow lights are displayed for 1 second.
 - The simulation resets itself after running for 1 minute.
 
-Cars pass through stop areas if already colliding with one when the light turns yellow. This ensures all cars can pass safely even with the 30x speed settings applied.
+##### A note on traffic and yellow lights
+
+Cars continue through stop areas if already colliding with one when the light turns yellow. This simulates real traffic behaviour and ensures all cars can continue or stop safely, even when the 30x speed settings are applied.
 
 ### What did I write?
 
@@ -33,8 +37,9 @@ Cars pass through stop areas if already colliding with one when the light turns 
 
 ## How did I create the scene?
 
+- With Weltmeister. You can open it locally: http://127.0.0.1/[traffic-lights-sim]/weltmeister.html
+- Open scene.js
 
-
-
-
-
+## Did I draw the art myself?
+ 
+Yes, it's all Programmer's Art.
