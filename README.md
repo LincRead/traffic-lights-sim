@@ -30,7 +30,7 @@ Cars pass through stop areas if already colliding with one when the light turns 
 
 - lib/game/main.js
 - lib/game/entities/*
-- 
+
 ## How did I create the scene?
 
 
