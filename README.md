@@ -32,14 +32,14 @@ Cars continue through stop areas if already colliding with one when the light tu
 
 ##### Unit tests
 
-Since everything happens in real-time the unit tests attempts to account for this approach.
+You can turn on off unit testing for production builds in lib/impact/system.js by setting *runUnitTests* to false.
 
-You can turn on off unit test for production builds in lib/impact/system.js by setting runUnitTests to false.
+Since everything happens in real-time the unit tests are written to take this into account.
 
 ##### What did I write?
 
 - lib/game/main.js
-- lib/game/entities/*
+- lib/game/entities/* (all files)
 
 ##### How did I create the scene?
 
