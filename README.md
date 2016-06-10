@@ -14,13 +14,13 @@ The simulator includes two buttons:
 - Press the 1x button to reset the simulation with default settings.
 - Press the 30x button to reset the simulation and speed things up by 30.
 
-##### 1x botton (default) settings applied:
+###### 1x botton (default) settings applied:
 
 - Traffic lights will change between red and green light every 5 minutes. 
 - To warn incoming traffic about the change, yellow lights will be displayed 30 seconds before the lights change to red.
 - The simulation resets itself after running for 30 minutes.
 
-##### 30x button settings applied:
+###### 30x button settings applied:
 
 - Traffic lights will change every 10 seconds.
 - Yellow lights are displayed for 1 second.
