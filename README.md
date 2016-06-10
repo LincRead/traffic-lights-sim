@@ -32,7 +32,7 @@ Cars continue through stop areas if already colliding with one when the light tu
 
 ##### Unit tests
 
-You can turn on off unit testing for production builds in lib/impact/system.js by setting *runUnitTests* to false.
+You can turn off unit testing for production builds in lib/impact/system.js by setting *runUnitTests* to false.
 
 Since everything happens in real-time the unit tests are written to take this into account.
 
