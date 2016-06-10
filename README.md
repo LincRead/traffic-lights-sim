@@ -30,16 +30,22 @@ The simulator includes two buttons:
 
 Cars continue through stop areas if already colliding with one when the light turns yellow. This simulates real traffic behaviour and ensures all cars can continue or stop safely, even when the 30x speed settings are applied.
 
-### What did I write?
+##### Unit tests
+
+Since everything happens in real-time the unit tests attempts to account for this approach.
+
+You can turn on off unit test for production builds in lib/impact/system.js by setting runUnitTests to false.
+
+##### What did I write?
 
 - lib/game/main.js
 - lib/game/entities/*
 
-## How did I create the scene?
+##### How did I create the scene?
 
-- With Weltmeister. You can open it locally: http://127.0.0.1/[traffic-lights-sim]/weltmeister.html
+- Using Weltmeister. You can open it locally: http://127.0.0.1/[traffic-lights-sim]/weltmeister.html
 - Open scene.js
 
-## Did I draw the art myself?
+##### Did I draw the art myself?
  
 Yes, it's all Programmer's Art.
